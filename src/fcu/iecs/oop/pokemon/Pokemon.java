@@ -2,8 +2,8 @@ package fcu.iecs.oop.pokemon;
 
 public abstract class Pokemon {
 	private int cp;
-	private String name;
-	private PokemonType Type;
+	private final String name;
+	private final PokemonType Type;
 	public abstract void attack();
 	public Pokemon(String name, PokemonType type,int cp) {
 		super();
